@@ -5,7 +5,7 @@
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items>
-      <v-btn text v-if="!user" :to="{ name: 'signup' }">
+      <v-btn text v-if="!user" :to="{ name: 'Signup' }">
         サインアップ
       </v-btn>
       <v-btn text v-if="!user" :to="{ name: 'Login' }">
